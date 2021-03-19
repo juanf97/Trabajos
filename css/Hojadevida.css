@@ -16,7 +16,11 @@ div{
 
 }
 
-
+@media screen and (max-wid:700px){
+        div{
+            display: none;
+        }
+}
 
 
 .Info{
@@ -50,9 +54,9 @@ header{
 }
 .contenedor-c2{
     display: grid;
-    grid-template-columns: 10% 60%;
+    grid-template-columns: 10% 60% ;
     gap: 1rem;
-    width: 100%;
+    width:85%;
 }
 .contenido{
     width: 100%;
