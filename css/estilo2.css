@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background: #e2dddd;
+  margin: 15px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+article {
+  background: rgb(82, 80, 80);
+  margin: 1rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 3rem;
+  padding-right: 5rem;
+}
+article.fondo1{
+    background: tomato;
+}
+section{
+    background: beige;
+}
+div.colors{
+    background: burlywood;
+}

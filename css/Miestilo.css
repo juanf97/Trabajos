@@ -1,0 +1,17 @@
+body {
+    background-color: powderblue;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h1 {
+    color: white;
+  }
+  p {
+    color: red;
+  }     
+  
+  #PiePagina {
+        width:50%;
+        
+        border: 1px solid black;
+
+  }
