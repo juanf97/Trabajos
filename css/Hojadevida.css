@@ -1,34 +1,25 @@
 * {
-  margin: 10;
+  margin: 1;
   padding: 0%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
     
-    float: left;
+    float:right;
 
 }
 div{
-   width: 40%;
-  float: left;
-  padding-left: 40%;
+   width: 60%;
+  float: right;
+  padding-left: 35%;
     
 
 }
-
-@media screen and (max-wid:700px){
-        div{
-            display: none;
-        }
-}
-
 
 .Info{
-    
     padding: 1rem;
     display: block;
    width: 390px;
-  
     text-align: center;
    background: #383838;
 }
