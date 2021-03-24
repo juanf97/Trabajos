@@ -3,7 +3,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-    background: yellow;
+    background: #ffff;
     
 }
 
@@ -59,4 +59,9 @@ h1{
     margin:0.5px;
     text-align: center;
     background-color: blue;
+}
+.resaltar{
+    color: red;
+    background-color: chartreuse;
+
 }
