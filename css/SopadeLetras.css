@@ -3,65 +3,75 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-    background: #ffff;
+    background:white;
     
 }
 
 #cuadro{
-    
-   
-    background-color: rebeccapurple;
+    color: #ffff;
+    background-color:cornflowerblue;
         margin-left: 60%;
-        width: 800px;
-        height: 800px;
+        width: 600px;
+        height: 600px;
         padding: 0%;
         border-radius: 10px ;
         overflow: hidden;
 }
 .caja{
     margin: auto;
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
     text-align: center;
     box-shadow: 0 0 4px rgb(0,0,0,0.3);
     border-radius: 5px;
     float: left;
     
 }
+.caja:hover{
+    
+    color: cornflowerblue;
+    background-color: white;
+}
 #contenedor {
-
-    margin: 0%;
-    padding: 0%;
-    background: gray ;
+ margin: 0%;
+padding: 0%;
    
 }
-section{
+section{    
     margin: 0%;
-    padding: 20px;
-    width: 53%;
+    padding: 15px;
+    width: 52%;
     float: left;
-    background-color: aquamarine;
-    border-radius: 10px ;
+    background-color: #ffff;
+    
   
 }
+
 #sopa{
+   
     width: 45%;
     float: left;
-        max-width: 0%;
-    margin: auto;
-    background-color: blueviolet;
+    max-width: 0%;
+    margin-top: 2%;
+    background-color:red;
     border-radius: 10px ;
     
 }
 h1{
+    font-family:Broadway;
+    font-size: 70px;
     padding: 0%;
     margin:0.5px;
     text-align: center;
-    background-color: blue;
+    background-color: cornflowerblue;
+    border-radius: 10rem;
 }
 .resaltar{
     color: red;
     background-color: chartreuse;
 
+}
+p{
+    font-size: 20px;
 }
