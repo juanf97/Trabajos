@@ -1,6 +1,6 @@
 body{
     margin: 0%;
-    background-color:aliceblue;
+    background-color:gray;
     font-family:'IBM Plex Sans', sans-serif;
 }
 button{
@@ -25,8 +25,8 @@ button{
 }
 
 .page_inicio{
-    
-    background-color: blue;
+    text-align: center;
+    background-color: red;
     border: 1px solid black;
     position: relative;
 }
