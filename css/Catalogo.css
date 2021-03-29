@@ -1,0 +1,75 @@
+body{
+    margin: 0%;
+    background-color:aliceblue;
+    font-family:'IBM Plex Sans', sans-serif;
+}
+button{
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 25px;
+
+}
+.button-tienda{
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA; /* AZUL */
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+.button-tienda:hover {
+    background-color: #008CBA; /* AZUL */
+    color: white;
+}
+
+.page_inicio{
+    
+    background-color: blue;
+    border: 1px solid black;
+    position: relative;
+}
+.page_inicio h1 {
+    margin: 20px;
+}
+.contenido{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+    border: 1px solid red;
+}
+.info_contenedor{
+    margin:15px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0  4px 8px 0 rgba(0,0,0,2);
+    background-color: white;
+}
+.info_contenedor:hover{
+    box-shadow: 0  8px 16px 0 rgba(0,0,0,2);
+
+}
+.info_contenedor img{
+width: 300px;
+}
+
+.info_contenedor h2{
+    margin-bottom: 0%;
+    margin-left: 15px;
+}
+.button-add {
+  
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+  
+.button-add:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
