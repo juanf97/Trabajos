@@ -9,9 +9,9 @@ body{
 
 }
 div{
-   width: 50%;
+   width: 60%;
   float: right;
-  padding-left: 35%;
+  padding-left: 40%;
     
 
 }
@@ -47,7 +47,7 @@ header{
     display: grid;
     grid-template-columns: 10% 60% ;
     gap: 1rem;
-    width:85%;
+    width:100%;
 }
 .contenido{
     width: 100%;
