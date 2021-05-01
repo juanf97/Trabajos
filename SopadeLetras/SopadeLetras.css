@@ -28,11 +28,12 @@ body{
     float: left;
     
 }
-.caja:hover{
-    
-    color: cornflowerblue;
-    background-color: white;
+.resaltar{
+    color: blueviolet;
+    background-color: red;
 }
+
+
 #contenedor {
  margin: 0%;
 padding: 0%;
@@ -54,7 +55,7 @@ section{
     float: left;
     max-width: 0%;
     margin-top: 2%;
-    background-color:red;
+    background-color:gray;
     border-radius: 10px ;
     
 }
@@ -67,11 +68,7 @@ h1{
     background-color: cornflowerblue;
     border-radius: 10rem;
 }
-.resaltar{
-    color: red;
-    background-color: chartreuse;
 
-}
 p{
     font-size: 20px;
 }
