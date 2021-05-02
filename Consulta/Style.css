@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 1.5%;
+    
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background:linear-gradient(black, gainsboro);
+}
+.titulo{
+    margin: 1px;
+    background: url(Imagenes/fondo3.jpg) no-repeat center/cover;
+    border: 2px solid white;
+    text-align: center;
+    text-transform: capitalize;
+    width:auto;
+    height: 300px;
+    line-height: 300px;
+    margin-bottom: 20px;
+}
+
+h1
+{
+   /* font-family: 'Pacifico', cursive;*/
+    font-family: 'Comfortaa', cursive;
+    color:whitesmoke;
+    font-size: 100px;
+}
+.informacion{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Comfortaa', cursive;
+    padding: auto; 
+    margin: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+
+}
