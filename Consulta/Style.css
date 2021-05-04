@@ -1,17 +1,17 @@
 *{
     margin: 0px;
-    padding: 1.5%;
+    padding: 0%;
     
 }
 body{
+    position: relative;
     margin: 0%;
     padding: 0%;
     background:linear-gradient(black, gainsboro);
 }
 .titulo{
-    margin: 1px;
+    margin: 20px;
     background: url(Imagenes/fondo3.jpg) no-repeat center/cover;
-    border: 2px solid white;
     text-align: center;
     text-transform: capitalize;
     width:auto;
@@ -19,22 +19,50 @@ body{
     line-height: 300px;
     margin-bottom: 20px;
 }
+.titulo1{
+    margin: 20px;
+    background: url(Imagenes/fondo5.jpg) no-repeat center/cover;
+    text-align: center;
+    text-transform: capitalize;
+    width:auto;
+    height: 300px;
+    line-height: 300px;
+    margin-bottom: 20px;
+   
+}
 
 h1
 {
+    margin: 0%;
+    padding: 0%;
    /* font-family: 'Pacifico', cursive;*/
     font-family: 'Comfortaa', cursive;
-    color:whitesmoke;
-    font-size: 100px;
+    color:black;
+    font-size: 50px;
+    
 }
 .informacion{
     margin: 0%;
-    padding: 0%;
+    padding: 20px;
     font-family: 'Comfortaa', cursive;
-    padding: auto; 
+    padding: auto;
     margin: 15px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns:1fr 1fr   ;
     gap: 25px;
-
+    
 }
+.informacion img{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 30%;
+    border: 3px solid whitesmoke;
+   
+}
+@media (max-width: 700px) {
+    .informacion{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
