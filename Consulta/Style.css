@@ -53,10 +53,29 @@ h1
     
 }
 .informacion img{
-    width: 250px;
+    width: 400px;
     height: 200px;
     border-radius: 10px;
-    margin-left: 30%;
+    margin-left: 20%;
+    border: 3px solid whitesmoke;
+   
+}
+.informacion1{
+    margin: 0%;
+    padding: 20px;
+    font-family: 'Comfortaa', cursive;
+    padding: auto;
+    margin: 15px;
+    display: grid;
+    grid-template-columns:1fr 1fr   ;
+    gap: 25px;
+    
+}
+.informacion1 img{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 20%;
     border: 3px solid whitesmoke;
    
 }
@@ -64,5 +83,27 @@ h1
     .informacion{
         grid-template-columns: repeat(1, 1fr);
     }
+    .informacion1{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    h1{
+        font-size: 25px;
+    }
 }
+@media (max-width:500px){
+    h1{
+        font-size: 25px;
+    }
+}
+@media (max-width: 1200px){
+    h1{
+        font-size: 40px;
+    }
+}
+@media (max-width: 900px){
+    h1{
+        font-size: 20px;
+    }
+}
+
 
