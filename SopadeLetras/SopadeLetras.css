@@ -28,12 +28,18 @@ body{
     float: left;
     
 }
-.resaltar{
-    color: blueviolet;
-    background-color: red;
+.resaltar {
+    color: cornflowerblue;
+    background-color: whitesmoke;
 }
-
-
+#btnResolver{
+    
+    width: 100px;
+    height:60px;
+    background-color: cornflowerblue;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
 #contenedor {
  margin: 0%;
 padding: 0%;
