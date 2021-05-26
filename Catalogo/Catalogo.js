@@ -1,11 +1,12 @@
-let productos  =[]
+let products  =[];
 let total =0;
-function add(producto, precio){
-    console.log(producto,  precio);
-    productos.push(producto);
-    total= total + precio;
-    document.getElementById("tiendap").innerHTML = 'valor a pagar $${total}'
+function add(product, price){
+    console.log(product,  price);
+    products.push(product);
+    total= total + price;
+    document.getElementById("tiendap").innerHTML = `total a pagar  $${total}`;
 }
 function pay(){
-    window.alert(productos.join(", \n")); 
+    alert("ACONTINUACION SALDRA LA LISTA DE PRODUCTOS POR GARAR, CLIEN EN ACEPTAR PARA CONTINUAR")
+    window.alert(products.join(", \n ")); 
 }
