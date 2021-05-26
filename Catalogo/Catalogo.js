@@ -7,6 +7,6 @@ function add(product, price){
     document.getElementById("tiendap").innerHTML = `total a pagar  $${total}`;
 }
 function pay(){
-    alert("ACONTINUACION SALDRA LA LISTA DE PRODUCTOS POR GARAR, CLIEN EN ACEPTAR PARA CONTINUAR")
+    alert("ACONTINUACION SALDRA LA LISTA DE PRODUCTOS POR GARAR, CLICK EN ACEPTAR PARA CONTINUAR")
     window.alert(products.join(", \n ")); 
 }
