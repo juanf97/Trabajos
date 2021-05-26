@@ -1,22 +1,30 @@
 * {
-  margin: 10;
+  margin: 0;
   padding: 0%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-    
+    background:linear-gradient( #7FB3D5, #ECF0F1  );
     float: left;
 
 }
 div{
-   width: 40%;
+   width: 70%;
   float: left;
   padding-left: 40%;
-    
-
+ 
 }
-
-
+.contenedor-c2{
+    margin: 0%;
+    padding: 20px;
+    font-family: 'Comfortaa', cursive;
+    padding: auto;
+    margin: 15px;
+    display: grid;
+    grid-template-columns:1fr 1fr   ;
+    gap: 25px;
+    
+}
 .Info{
     
     padding: 1rem;
@@ -24,7 +32,7 @@ div{
    width: 390px;
   
     text-align: center;
-   background: #383838;
+    background:linear-gradient(black, gray);
 }
 ul
 {
@@ -42,6 +50,7 @@ li{
 }
 .referencias{
     text-align: center;
+  
 }
 header{
     text-align: center;
