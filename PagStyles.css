@@ -1,0 +1,29 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    image-rendering: auto;
+    background: url(imgP/pixelArt.png)no-repeat center/cover;
+}
+.titulo{
+    text-align: center;
+    margin-top: center;
+    font-size: 50px;
+    font-family: 'Lobster Two', cursive;
+    color:#871F29 ; 
+    
+}
+nav ul li{
+float: left;
+list-style: none;
+text-align: center;
+margin-left: 20px;
+font-size: 30px;
+padding-left: 100px;
+
+}
+a{
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+    color:#A051C2;
+    list-style: none;
+}
